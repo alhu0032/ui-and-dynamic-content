@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+.bg{
+    background-image: url(../img/bng1.jpg);   
+    
+}
+.body{
+    
+    max-width: 45rem;
+    width:45rem;
+    padding: 0 5rem;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif ;
+    line-height: 2;
+    text-align: center;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    
+}
+p , h3{
+     font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    
+}
+
+img{
+/*    margin: 40px;*/
+    width: 300px;
+    height: 300px;
+    align-content:center;
+}
+
+ul{
+    margin: 40px;
+  
+}
+
+ul li{
+    width: 100%;
+    list-style: none;
+    min-width: 200px;
+    text-align: left;
+    font-size:20px; 
+}
+
+ul li:before { 
+    content:"\00bb"; 
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+   
+[type="button"] {
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    padding: 1rem;
+    border: 1px solid #666;
+    background-color: #666;
+    color: white;
+    width:100%;
+}
+[type="button"]:hover {
+    border: 1px solid #DDD;
+    background-color: #DDD;
+    color: black;
+}
+[type="button"]:active {
+    border: 1px solid #000;
+    background-color: #000;
+    color: #FFF;
+}
+[type="text"] {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    padding: 1rem;
+    border: 1px solid #DDD;
+    width:100%;
+}
+.social{
+  width: 100%;
+  margin-top: 50px;
+  font-size: 2rem;
+}
+    
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+/*  border-radius: 50%;*/    
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
